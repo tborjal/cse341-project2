@@ -9,6 +9,15 @@ const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 3000;
 
+const MongoStore = require('connect-mongo')(session);
+
+app.use(session({
+  secret: 'secret',
+  store: new MongoStore({ url: 'mongodb+srv://bor22014:adminPassword2@cse341.gwi2fni.mongodb.net/project2' }),
+  resave: false,
+  saveUninitialized: true
+}));
+
 app
   .use(bodyParser.json())
   .use(
