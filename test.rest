@@ -29,11 +29,11 @@ POST http://localhost:3000/professors HTTP/1.1 content-type: application/json
 }
 
 ### Update Professors localhost 
-PUT http://localhost:3000/students/ HTTP/1.1 content-type: application/json
+PUT http://localhost:3000/professors/ HTTP/1.1 content-type: application/json
 
 {
 "firstName": "Miggy", "lastName": "Esmundo", "schoolId": 1, "birthday": "02/28/04", "gradeLevel": 3, "gradeSection": 2, "teacherAdviser": "Jessa Gamboa"
 }
 
 ### Delete Professors localhost 
-DELETE http://localhost:3000/students/ HTTP/1.1
+DELETE http://localhost:3000/professors/ HTTP/1.1
