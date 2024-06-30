@@ -103,7 +103,7 @@ const deleteStudent = async (req, res) => {
   if (!ObjectId.isValid(req.params.id)) {
     res
       .status(400)
-      .json("Must us a valid student id to update the student details.");
+      .json("Must use a valid student id to update the student details.");
   }
   const userId = new ObjectId(req.params.id);
   try {

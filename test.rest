@@ -20,3 +20,20 @@ PUT http://localhost:3000/students/6645aa79951e152cb930cbe2 HTTP/1.1 content-typ
 
 ### Delete Student localhost 
 DELETE http://localhost:3000/students/6645a6c2932f284a3072b2ec HTTP/1.1
+
+### Create Professors localhost 
+POST http://localhost:3000/professors HTTP/1.1 content-type: application/json
+
+{
+"firstName": "Terence", "lastName": "Borjal", "schoolId": 1, "birthday": "05/05/95", "gradeLevel": 2, "gradeSection": 1, "teacherAdviser": "Andrew Sy"
+}
+
+### Update Professors localhost 
+PUT http://localhost:3000/students/ HTTP/1.1 content-type: application/json
+
+{
+"firstName": "Miggy", "lastName": "Esmundo", "schoolId": 1, "birthday": "02/28/04", "gradeLevel": 3, "gradeSection": 2, "teacherAdviser": "Jessa Gamboa"
+}
+
+### Delete Professors localhost 
+DELETE http://localhost:3000/students/ HTTP/1.1
