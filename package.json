@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/tborjal/cse341-project2.git"
   },
-  "author": "",
+  "author": "Terence Dreico Borjal",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tborjal/cse341-project2/issues"
@@ -23,7 +23,11 @@
     "express": "^4.19.2",
     "express-session": "^1.18.0",
     "mongodb": "^6.8.0",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
     "swagger-autogen": "^2.23.7",
-    "swagger-ui-express": "^5.0.1"
+    "swagger-ui-express": "^5.0.1",
+    "validator.js": "^2.0.4",
+    "validatorjs": "^3.22.1"
   }
 }
